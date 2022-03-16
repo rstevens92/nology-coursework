@@ -1,0 +1,102 @@
+.navigation {
+    height: 10vh;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__copyright {
+        color: $color-white;
+    }
+
+    &__date{
+        color: $color-white;
+    }
+
+}
+
+.logo {
+    font-family: $font-display;
+    font-size: 20px;
+    color: $color-white;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+    border: none;
+
+    &--form{
+        width: 100%;
+        background-color: $color-primary-light;
+    }
+
+    &--outro{
+        background-color: $color-white;
+        color: $color-primary;
+        border: 1px solid $color-black;
+        font-size: 15px;
+        font-family: $font-body;
+    }
+}
+
+.intro {
+    text-align: center;
+
+    &__heading {
+        color: $color-primary;
+        font-size: 50px;
+
+    }
+
+    &__subheading {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    &__button {
+        margin: 0 auto;
+    }
+
+}
+
+.wave {
+    vertical-align: top;
+}
+
+.form{
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &__input{
+        margin-bottom: 20px;
+    }
+}
+
+.outro {
+    text-align: center;
+
+    &__subheading{
+        font-family: $font-display;
+        font-size: 25px;
+    }
+
+    &__button{
+        margin: 0 auto;
+        background-color: $color-white;
+        border: 2px solid $color-primary;
+        color: $color-primary;
+        width: 200px;
+        font-size: 20px;
+    }
+}
